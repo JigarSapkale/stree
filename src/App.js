@@ -40,12 +40,12 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="center" element={<Center />} />
-          <Route path="test" element={<Test />} />
-          <Route path="fa" element={<Fa />} />
+          //<Route path="test" element={<Test />} />
+          //<Route path="fa" element={<Fa />} />
           <Route path="qrscan" element={<Qrscan />} />
-          <Route path="pricetag" element={<PriceTag />} />
-          <Route path="ewallet" element={<EWallet />} />
-          <Route path="qrreader" element={<QrReader />} />
+          //<Route path="pricetag" element={<PriceTag />} />
+          //<Route path="ewallet" element={<EWallet />} />
+         // <Route path="qrreader" element={<QrReader />} />
 
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit
@@ -110,7 +110,7 @@ function Home() {
 function About() {
   return (
     <div>
-      <h2>Random Graph PWA version is a collection of React Components with source code</h2>
+      <h2>Stree Sanman version is a collection of React Components with source code</h2>
     </div>
   );
 }
