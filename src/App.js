@@ -4,13 +4,13 @@ import './styles.css';
 
 import logo from './logo/Soccerball.svg';
 
-import FixedButton from './FixedButton';
-import Test from './Test';
-import Fa from './Fa';
+//import FixedButton from './FixedButton';
+//import Test from './Test';
+//import Fa from './Fa';
 import Qrscan from './Qrscan';
-import PriceTag from './PriceTag';
-import EWallet from './EWallet';
-import QrReader from './QrReader';
+//import PriceTag from './PriceTag';
+//import EWallet from './EWallet';
+//import QrReader from './QrReader';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
@@ -68,7 +68,7 @@ function Layout() {
     <div className="main2-layout">
 
         <div className="header2-layout">
-          <div>RANDOM GRAPH PWA</div>
+          <div>Stree Sanman</div>
           <div className="nav-icon" onClick={handleClick} ><FontAwesomeIcon icon={click ? faTimes : faBars} /></div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
 
@@ -101,7 +101,7 @@ function Home() {
     <div className="center-container">
       <div className="home">
         <img src={logo} className="home-logo" alt="logo" />
-        <h2>Random Graph PWA</h2>
+        <h2>Stree Sanman</h2>
       </div>
     </div>
   );
